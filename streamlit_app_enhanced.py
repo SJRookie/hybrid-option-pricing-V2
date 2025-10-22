@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import hashlib
 from option_pricing_core import get_analysis_results, HybridAnalysisConfig 
-from option_visuals import (
+from option_visuals_v2 import (
     create_payoff_diagram,
     create_greeks_sensitivity_chart,
     get_enhanced_pricing_table
